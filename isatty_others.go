@@ -1,5 +1,5 @@
-//go:build (appengine || js || nacl || tinygo || wasm) && !windows
-// +build appengine js nacl tinygo wasm
+//go:build (appengine || js || nacl || tinygo) && !windows
+// +build appengine js nacl tinygo
 // +build !windows
 
 package isatty
